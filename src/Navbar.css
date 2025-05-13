@@ -17,7 +17,7 @@ li {
 }
 
 a {
-  color:rgb(165, 137, 102);
+  color:rgb(197, 172, 142);
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
@@ -25,5 +25,5 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #007bff;
+  color: #fff;
 }

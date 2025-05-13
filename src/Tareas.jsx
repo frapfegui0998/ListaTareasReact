@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Tareas.css";
 
 const Tareas = () => {
   const [tareas, setTareas] = useState([]);
@@ -34,9 +35,9 @@ const Tareas = () => {
           <button type="submit">Añadir</button>
         </form>
       )}
-      <ul>
+      <ul className="tareas-lista">
         {tareas.map((tarea, index) => (
-          <li key={index}>{tarea}</li>
+          <li className="tareas-item" key={index}>{tarea}</li>
         ))}
       </ul>
     </div>
