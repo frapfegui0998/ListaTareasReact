@@ -6,17 +6,18 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Tareas from './Tareas';
 import Perfil from './Perfil';
 import Home from './Home';
-
+import Navbar from './Navbar'; 
 function App() {
   
   return (
     <>
       <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/lista' element={<Tareas />} />
-        <Route path='/about' element={<Perfil />} />
-      </Routes>
+      <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/lista' element={<Tareas />} />
+          <Route path='/about' element={<Perfil />} />
+        </Routes>
       </BrowserRouter>
     </>
   )
