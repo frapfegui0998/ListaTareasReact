@@ -16,14 +16,14 @@ li {
   margin: 0 15px;
 }
 
-a {
+.navbar-link {
   color:rgb(197, 172, 142);
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
 }
 
-a:hover {
+.navbar-link:hover {
   text-decoration: underline;
   color: #fff;
 }
